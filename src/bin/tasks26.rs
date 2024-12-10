@@ -6,7 +6,6 @@ fn main() {
     io::stdin().read_line(&mut input).unwrap();
 
     let inputs: Vec<String> = input
-        .trim()
         .split_whitespace()
         .map(|i| i.parse().unwrap())
         .collect();
